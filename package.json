@@ -1,32 +1,18 @@
 {
-    "name": "catanghel.search-with-google",
-    "title": "Search with Google",
-    "description": "Adds search options to the file menu and context menu. Added Stackoverflow to the list",
-    "homepage": "https://github.com/catanghel/search-with-google",
-    "version": "0.2.0",
-    "author": "Catalin Anghel <catalin.anghel@gmail.com>",
+    "name": "Denisov21.W3CSchools",
+    "title": "Tutorials W3CSchools",
+    "description": "Adds link options to the file menu and context menu.",
+    "homepage": "https://github.com/Denisov21/W3CSchools",
+    "version": "0.1.0",
+    "author": "Denisov21",
     "keywords": [
-	"extension",
-	"search",
-	"google", 
-	"stackoverflow"
-    ],
-    "maintainers": [
-       {
-           "name": "Catalin Anghel",
-           "email": "catalin.anghel@gmail.com",
-           "web": "https://github.com/catanghel/search-with-google" 
-       } 
-    ],
-    "contributors": [
-       {
-           "name": "Catalin Anghel",
-           "email": "catalin.anghel@gmail.com",
-           "web": "https://github.com/catanghel/search-with-google" 
-       } 
+    "extension",
+    "W3CSchools",
+    "tutorial",
+    "web"
     ],
     "license": "MIT",
     "engines": {
-        "brackets": ">=0.38.0"
+        "brackets": ">=0.41.0"
     }
 }
