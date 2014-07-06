@@ -1,7 +1,7 @@
 {
-    "name": "Denisov21.W3CSchools",
+    "name": "wthreec_schools",
     "title": "Tutorials W3CSchools",
-    "description": "Adds link options to the file menu and context menu.",
+    "description": "Add link options to the Help menu.",
     "homepage": "https://github.com/Denisov21/W3CSchools",
     "version": "0.1.0",
     "author": "Denisov21",
