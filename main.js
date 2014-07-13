@@ -17,7 +17,7 @@ define(function (require, exports, module) {
 
     var W3C_SCHOOLS = "Denisov.W3CSchools";
 
-    CommandManager.register("W3C Schools Tutorial", W3C_SCHOOLS, W3CShools);
+    CommandManager.register("W3 Schools Tutorial", W3C_SCHOOLS, W3CShools);
 
     var helpMenu = Menus.getMenu(Menus.AppMenuBar.HELP_MENU);
     /*var contextMenu = Menus.getContextMenu(Menus.ContextMenuIds.EDITOR_MENU);*/
