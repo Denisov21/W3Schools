@@ -8,21 +8,21 @@ define(function (require, exports, module) {
         EditorManager  = brackets.getModule("editor/EditorManager"),
         Menus          = brackets.getModule("command/Menus");
 
-    function W3CShools() {
+    function W3Shools() {
         var thisEditor = EditorManager.getCurrentFullEditor();
         var query = thisEditor._codeMirror.getSelection();
-        window.open("http://www.w3schools.com/" + encodeURIComponent(query));
+        window.open("http://www.w3schools.com/");
     }
 
 
-    var W3C_SCHOOLS = "Denisov.W3CSchools";
+    var W3_SCHOOLS = "Denisov.W3Schools";
 
-    CommandManager.register("W3 Schools Tutorial", W3C_SCHOOLS, W3CShools);
+    CommandManager.register("W3 Schools Tutorial", W3_SCHOOLS, W3Shools);
 
     var helpMenu = Menus.getMenu(Menus.AppMenuBar.HELP_MENU);
     /*var contextMenu = Menus.getContextMenu(Menus.ContextMenuIds.EDITOR_MENU);*/
     helpMenu.addMenuDivider();
-    helpMenu.addMenuItem(W3C_SCHOOLS, "Ctrl-Alt-W");
+    helpMenu.addMenuItem(W3_SCHOOLS, "Ctrl-Alt-W");
     /*contextMenu.addMenuDivider();
-    contextMenu.addMenuItem(W3C_SCHOOLS, "Ctrl-Alt-W");*/
+    contextMenu.addMenuItem(W3_SCHOOLS, "Ctrl-Alt-W");*/
 });
