@@ -1,13 +1,13 @@
 {
     "name": "wthreec_schools",
-    "title": "Tutorials W3CSchools",
+    "title": "Tutorials W3Schools",
     "description": "Add link options to the Help menu.",
     "homepage": "https://github.com/Denisov21/W3CSchools",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "author": "Denisov21",
     "keywords": [
     "extension",
-    "W3CSchools",
+    "W3Schools",
     "tutorial",
     "web"
     ],
