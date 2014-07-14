@@ -5,20 +5,22 @@ define(function (require, exports, module) {
     "use strict";
 
     var CommandManager = brackets.getModule("command/CommandManager"),
-        EditorManager  = brackets.getModule("editor/EditorManager"),
-        Menus          = brackets.getModule("command/Menus");
+       // EditorManager  = brackets.getModule("editor/EditorManager"),
+        Menus          = brackets.getModule("command/Menus"),
+        NativeApp      = brackets.getModule("utils/NativeApp");
 
     function Mozilla() {
         //var thisEditor = EditorManager.getCurrentFullEditor();
        // var query = thisEditor._codeMirror.getSelection();
-        window.open("https://developer.mozilla.org");
+        NativeApp.openURLInDefaultBrowser("https://developer.mozilla.org");
     }
 
     function W3Shools() {
        // var thisEditor = EditorManager.getCurrentFullEditor();
        // var query = thisEditor._codeMirror.getSelection();
-        window.open("http://www.w3schools.com/");
+        NativeApp.openURLInDefaultBrowser("http://w3schools.com");
     }
+
 
     var MOZILLA_MSDN = "Denisov.Mozilla";
     var W3_SCHOOLS = "Denisov.W3Schools";

@@ -13,3 +13,7 @@ V 1.1.3
 * Add link (https://developer.mozilla.org)
 * Update ReadMe.md
 * Add divisor in Help menu
+
+V 1.1.4
+
+* Fix issue https://github.com/Denisov21/W3Schools/issues/3
