@@ -21,18 +21,27 @@ define(function (require, exports, module) {
         NativeApp.openURLInDefaultBrowser("http://w3schools.com");
     }
 
+    function Forum() {
+       // var thisEditor = EditorManager.getCurrentFullEditor();
+       // var query = thisEditor._codeMirror.getSelection();
+        NativeApp.openURLInDefaultBrowser("https://groups.google.com/forum/#!forum/brackets-dev");
+    }
 
-    var MOZILLA_MSDN = "Denisov.Mozilla";
+
+    var MOZILLA_MDN = "Denisov.Mozilla";
     var W3_SCHOOLS = "Denisov.W3Schools";
+    var FORUM_BRACKETS = "Denisov.Forum";
 
-    CommandManager.register("Mozilla MSDN", MOZILLA_MSDN, Mozilla);
+    CommandManager.register("Mozilla MDN", MOZILLA_MDN, Mozilla);
     CommandManager.register("W3 Schools Tutorial", W3_SCHOOLS, W3Shools);
+    CommandManager.register("Brackets-Dev", FORUM_BRACKETS, Forum);
 
     var helpMenu = Menus.getMenu(Menus.AppMenuBar.HELP_MENU);
     //var contextMenu = Menus.getContextMenu(Menus.ContextMenuIds.EDITOR_MENU);*/
     helpMenu.addMenuDivider();
-    helpMenu.addMenuItem(MOZILLA_MSDN, "Ctrl-Alt-M");
+    helpMenu.addMenuItem(MOZILLA_MDN, "Ctrl-Alt-M");
     helpMenu.addMenuItem(W3_SCHOOLS, "Ctrl-Alt-W");
+    helpMenu.addMenuItem(FORUM_BRACKETS, "Ctrl-Alt-B");
     helpMenu.addMenuDivider();
     //contextMenu.addMenuDivider();
     //contextMenu.addMenuItem(W3_SCHOOLS, "Ctrl-Alt-W");
