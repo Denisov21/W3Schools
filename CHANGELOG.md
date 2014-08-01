@@ -22,3 +22,8 @@ V 0.2.0
 
 * Fix error in Help menu.
 * Add link Brackets-Dev
+
+v 0.2.1
+
+* Add link Brackets Themes
+* Rename Brackets-Dev

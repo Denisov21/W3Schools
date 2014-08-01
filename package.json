@@ -1,9 +1,9 @@
 {
     "name": "wthreec_schools",
-    "title": "Tutorials W3Schools",
-    "description": "Add links (MDN, W3 School Tutorial, Brackets-Dev) into the Help menu.",
+    "title": "Tutorials",
+    "description": "Add links (MDN, W3 School Tutorial, Brackets-Dev, Brackets Themes) into menu.",
     "homepage": "https://github.com/Denisov21/W3Schools",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "author": "Denisov21",
     "keywords": [
     "extension",
@@ -16,6 +16,6 @@
     ],
     "license": "MIT",
     "engines": {
-        "brackets": ">=0.41.0"
+        "brackets": ">=0.42.0"
     }
 }
