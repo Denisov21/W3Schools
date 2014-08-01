@@ -5,7 +5,6 @@ This is an extension created for [Brackets](http://www.brackets.io/). It adds a 
 
 * In Help menu
 [W3School](http://www.w3schools.com/), [MDN](https://developer.mozilla.org/) 
-
 * In View menu
 [Brackets Themes](http://brackets-themes.github.io/) in the menu.
 
