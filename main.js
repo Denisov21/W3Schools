@@ -31,24 +31,30 @@ define(function (require, exports, module) {
        // var query = thisEditor._codeMirror.getSelection();
         NativeApp.openURLInDefaultBrowser("http://brackets-themes.github.io/");
     }
+    function Trello() {
+       // var thisEditor = EditorManager.getCurrentFullEditor();
+       // var query = thisEditor._codeMirror.getSelection();
+        NativeApp.openURLInDefaultBrowser("https://trello.com/board/brackets/4f90a6d98f77505d7940ce88");
+    }
 
     var MOZILLA_MDN = "Denisov.Mozilla";
     var W3_SCHOOLS = "Denisov.W3Schools";
     var FORUM_BRACKETS = "Denisov.Forum";
     var BRACKETS_THEMES = "Denisov.Themes";
+    var TRELLO = "Denisov.Trello";
 
-    CommandManager.register("Mozilla MDN", MOZILLA_MDN, Mozilla);
+    CommandManager.register("Mozilla Developer Network (MDN)", MOZILLA_MDN, Mozilla);
     CommandManager.register("W3 Schools Tutorial", W3_SCHOOLS, W3Shools);
-    CommandManager.register("Brackets-Dev (Google Group)", FORUM_BRACKETS, Forum);
-    CommandManager.register("Brackets Themes", BRACKETS_THEMES, Themes);
+    CommandManager.register("Developer List on Google Groups", FORUM_BRACKETS, Forum);
+    CommandManager.register("Brackets Themes (WEB site)", BRACKETS_THEMES, Themes);
+     CommandManager.register("Feature Backlog on Trello", TRELLO, Trello);
 
     var helpMenu = Menus.getMenu(Menus.AppMenuBar.HELP_MENU);
-    //var helpMenu = Menus.getMenu(Menus.AppMenuBar.HELP_MENU);
-    //var contextMenu = Menus.getContextMenu(Menus.ContextMenuIds.EDITOR_MENU);*/
     helpMenu.addMenuDivider();
     helpMenu.addMenuItem(MOZILLA_MDN, "Ctrl-Alt-M");
     helpMenu.addMenuItem(W3_SCHOOLS, "Ctrl-Alt-W");
     helpMenu.addMenuItem(FORUM_BRACKETS, "Ctrl-Alt-B");
+    helpMenu.addMenuItem(TRELLO, "Ctrl-Alt-R");
     helpMenu.addMenuDivider();
 
 

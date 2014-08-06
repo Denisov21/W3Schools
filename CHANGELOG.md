@@ -27,3 +27,8 @@ v 0.2.1
 
 * Add link Brackets Themes
 * Rename Brackets-Dev
+
+v 0.2.2
+
+* Rename many items
+* Add Trello Web site
