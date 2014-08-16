@@ -32,3 +32,8 @@ v 0.2.2
 
 * Rename many items
 * Add Trello Web site
+
+v 0.2.3
+
+* Rename many items
+* Add Multilanguage (EN)

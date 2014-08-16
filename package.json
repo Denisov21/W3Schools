@@ -3,15 +3,11 @@
     "title": "Tutorials",
     "description": "Add links (MDN, W3 School Tutorial, Brackets-Dev, Brackets Themes) into menu.",
     "homepage": "https://github.com/Denisov21/W3Schools",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "author": "Denisov21",
     "keywords": [
-    "extension",
-    "W3Schools",
-    "tutorial",
     "MDN",
-    "mozilla",
-    "web",
+    "Brackets",
     "Brackets-Dev"
     ],
     "license": "MIT",
