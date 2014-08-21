@@ -10,6 +10,9 @@ It adds a link:
 * In `View` menu
 [Brackets Themes (WEB site)](http://brackets-themes.github.io/)
 
+### languages supported (English).
+Please help me to translate it in other languages!
+
 # License
 
 * Theme under MIT license [`LICENSE`](LICENSE)
