@@ -9,6 +9,8 @@ define(function (require, exports, module) {
         Menus          = brackets.getModule("command/Menus"),
         NativeApp      = brackets.getModule("utils/NativeApp");
 
+    var Strings             = require("strings");
+    
     function Mozilla() {
         //var thisEditor = EditorManager.getCurrentFullEditor();
        // var query = thisEditor._codeMirror.getSelection();
@@ -43,11 +45,11 @@ define(function (require, exports, module) {
     var BRACKETS_THEMES = "Denisov.Themes";
     var TRELLO = "Denisov.Trello";
 
-    CommandManager.register("Mozilla Developer Network (MDN)", MOZILLA_MDN, Mozilla);
-    CommandManager.register("W3 Schools Tutorial", W3_SCHOOLS, W3Shools);
-    CommandManager.register("Developer List on Google Groups", FORUM_BRACKETS, Forum);
-    CommandManager.register("Brackets Themes (WEB site)", BRACKETS_THEMES, Themes);
-     CommandManager.register("Feature Backlog on Trello", TRELLO, Trello);
+    CommandManager.register(Strings.MOZILLA_DEVELOPER, MOZILLA_MDN, Mozilla);
+    CommandManager.register(Strings.W3_SCHOOLS, W3_SCHOOLS, W3Shools);
+    CommandManager.register(Strings.DEVELOPER_LIST, FORUM_BRACKETS, Forum);
+    CommandManager.register(Strings.BRACKETS_THEMES, BRACKETS_THEMES, Themes);
+    CommandManager.register(Strings.FEATURE_BACKLOG, TRELLO, Trello);
 
     var helpMenu = Menus.getMenu(Menus.AppMenuBar.HELP_MENU);
     helpMenu.addMenuDivider();
