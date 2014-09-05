@@ -24,9 +24,9 @@
 /*jslint vars: true, plusplus: true, devel: true, nomen: true, indent: 4, maxerr: 50 */
 /*global define */
 define({
-    "MOZILLA_DEVELOPER": "Mozilla Developer Network (MDN)",
+    "MOZILLA_DEVELOPER": "Mozilla Developer Network",
     "W3_SCHOOLS"       : "W3 Schools Tutorial",
-    "DEVELOPER_LIST"   : "Develop List on Google Groups",
-    "BRACKETS_THEMES"  : "Brackets Themes (WEB Site)",
-    "FEATURE_BACKLOG"  : "Feature Backlog on Trello"
+    "DEVELOPER_LIST"   : "Brackets Forum",
+    "BRACKETS_THEMES"  : "Brackets Themes (Sito WEB)",
+    "FEATURE_BACKLOG"  : "Brackets Trello"
 });
