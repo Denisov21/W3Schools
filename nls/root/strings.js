@@ -28,5 +28,6 @@ define({
     "W3_SCHOOLS"       : "W3 Schools Tutorial",
     "DEVELOPER_LIST"   : "Develop List on Google Groups",
     "BRACKETS_THEMES"  : "Brackets Themes (WEB Site)",
-    "FEATURE_BACKLOG"  : "Feature Backlog on Trello"
+    "FEATURE_BACKLOG"  : "Feature Backlog on Trello",
+    "WAFFLE"           : "Waffle"
 });

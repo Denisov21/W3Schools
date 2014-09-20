@@ -37,3 +37,5 @@ v 0.2.3
 
 * Rename many items
 * Add Multilanguage (EN)
+* Add Waffle Web site
+* Update ReadME.md
