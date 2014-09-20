@@ -10,7 +10,7 @@ It adds a link:
 * In `View` menu
 [Brackets Themes (WEB site)](http://brackets-themes.github.io/)
 
-###### Languages supported (English).
+###### Languages supported (English and Italian).
 Please help me to translate it in other languages!
 
 # License
