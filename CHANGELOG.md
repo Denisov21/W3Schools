@@ -39,3 +39,7 @@ v 0.2.4
 * Add Multilanguage (EN)
 * Add Waffle Web site
 * Update ReadME.md
+
+v 0.2.6
+
+* Fix any errors

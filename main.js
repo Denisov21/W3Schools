@@ -49,10 +49,10 @@ define(function (require, exports, module) {
     var helpMenu = Menus.getMenu(Menus.AppMenuBar.HELP_MENU);
     helpMenu.addMenuDivider();
     helpMenu.addMenuItem(MOZILLA_MDN, "Ctrl-Alt-M");
-    helpMenu.addMenuItem(W3_SCHOOLS, "Ctrl-Alt-W");
-    helpMenu.addMenuItem(FORUM_BRACKETS, "Ctrl-Alt-B");
-    helpMenu.addMenuItem(TRELLO, "Ctrl-Alt-R");
-    helpMenu.addMenuItem(WAFFLE, "Ctrl-Alt-W");
+    helpMenu.addMenuItem(W3_SCHOOLS);
+    helpMenu.addMenuItem(FORUM_BRACKETS);
+    helpMenu.addMenuItem(TRELLO);
+    helpMenu.addMenuItem(WAFFLE);
     helpMenu.addMenuDivider();
 
 
