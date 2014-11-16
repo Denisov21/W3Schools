@@ -13,6 +13,12 @@ It adds a link:
 ###### Languages supported (English and Italian).
 Please help me to translate it in other languages!
 
+# How to Install
+
+1. Select File > Extension Manager...
+2. Search for this extension.
+3. Click on the Install button.
+
 # License
 
 * Theme under MIT license [`LICENSE`](LICENSE)
