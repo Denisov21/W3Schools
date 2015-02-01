@@ -1,7 +1,7 @@
 # W3Schools
 
 
-This is an extension created for [Brackets 43 or later](http://www.brackets.io/). 
+This is an extension created for [Brackets 0.43 or later](http://www.brackets.io/). 
 
 It adds a link:
 
