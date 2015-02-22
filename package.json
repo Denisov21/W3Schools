@@ -14,5 +14,8 @@
     "engines": {
         "brackets": ">=0.42.0"
     },
-    "i18n": ["en", "it" ]
+    "i18n": ["en", "it" ],
+    "package-i18n": {
+        "it": {
+        "description": "Aggiunge collegamenti a MDN, W3 School Tutorial, Brackets-Dev, Brackets Themes, Trello, Waffle all'interno del menu."}
 }
