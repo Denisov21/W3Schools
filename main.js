@@ -31,7 +31,7 @@ define(function (require, exports, module) {
     function Waffle() {
         NativeApp.openURLInDefaultBrowser("https://waffle.io/adobe/brackets");
     }
-
+  
     var MOZILLA_MDN = "Denisov.Mozilla";
     var W3_SCHOOLS = "Denisov.W3Schools";
     var FORUM_BRACKETS = "Denisov.Forum";
