@@ -43,3 +43,7 @@ v 0.2.4
 v 0.2.6
 
 * Fix any errors
+
+v 0.2.7
+
+* Change requisit in ReadMe and package.json
