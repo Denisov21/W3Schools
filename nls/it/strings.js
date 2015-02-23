@@ -28,5 +28,6 @@ define({
     "W3_SCHOOLS"       : "W3 Schools Tutorial",
     "DEVELOPER_LIST"   : "Brackets Forum",
     "BRACKETS_THEMES"  : "Brackets Themes (Sito WEB)",
-    "FEATURE_BACKLOG"  : "Brackets Trello"
+    "FEATURE_BACKLOG"  : "Brackets Trello",
+    "WIKI"             : "Brackets Wiki"
 });

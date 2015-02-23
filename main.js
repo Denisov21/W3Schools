@@ -31,13 +31,17 @@ define(function (require, exports, module) {
     function Waffle() {
         NativeApp.openURLInDefaultBrowser("https://waffle.io/adobe/brackets");
     }
-  
+    function Wiki() {
+        NativeApp.openURLInDefaultBrowser("http://github.com/adobe/brackets/wiki");
+    }
+
     var MOZILLA_MDN = "Denisov.Mozilla";
     var W3_SCHOOLS = "Denisov.W3Schools";
     var FORUM_BRACKETS = "Denisov.Forum";
     var BRACKETS_THEMES = "Denisov.Themes";
     var TRELLO = "Denisov.Trello";
     var WAFFLE = "Denisov.Waffle";
+    var WIKI = "Denisov.Wiki";
 
     CommandManager.register(Strings.MOZILLA_DEVELOPER, MOZILLA_MDN, Mozilla);
     CommandManager.register(Strings.W3_SCHOOLS, W3_SCHOOLS, W3Shools);
@@ -45,6 +49,7 @@ define(function (require, exports, module) {
     CommandManager.register(Strings.BRACKETS_THEMES, BRACKETS_THEMES, Themes);
     CommandManager.register(Strings.FEATURE_BACKLOG, TRELLO, Trello);
     CommandManager.register(Strings.WAFFLE, WAFFLE, Waffle);
+    CommandManager.register(Strings.WIKI, WIKI, Wiki)
 
     var helpMenu = Menus.getMenu(Menus.AppMenuBar.HELP_MENU);
     helpMenu.addMenuDivider();
@@ -53,6 +58,7 @@ define(function (require, exports, module) {
     helpMenu.addMenuItem(FORUM_BRACKETS);
     helpMenu.addMenuItem(TRELLO);
     helpMenu.addMenuItem(WAFFLE);
+    helpMenu.addMenuItem(WIKI);
     helpMenu.addMenuDivider();
 
 

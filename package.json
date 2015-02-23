@@ -1,9 +1,9 @@
 {
     "name": "wthreec_schools",
     "title": "Tutorials",
-    "description": "Add links (MDN, W3 School Tutorial, Brackets-Dev, Brackets Themes, Trello, Waffle) into menu.",
+    "description": "Add links (MDN, W3 School Tutorial, Brackets-Dev, Brackets Themes, Trello, Waffle, Brackets Wiki) into menu.",
     "homepage": "https://github.com/Denisov21/W3Schools",
-    "version": "0.2.7",
+    "version": "0.2.6",
     "author": "Denisov21",
     "keywords": [
     "MDN",
@@ -14,8 +14,5 @@
     "engines": {
         "brackets": ">=1.0.0"
     },
-    "i18n": ["en", "it" ],
-    "package-i18n": {
-        "it": {
-        "description": "Aggiunge collegamenti a MDN, W3 School Tutorial, Brackets-Dev, Brackets Themes, Trello, Waffle all'interno del menu."}
+    "i18n": ["en", "it" ]
 }

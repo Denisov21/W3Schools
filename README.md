@@ -1,7 +1,7 @@
 # W3Schools
 
 
-This is an extension created for [Brackets 1.0 or later](http://www.brackets.io/). 
+This is an extension created for [Brackets 43 or later](http://www.brackets.io/). 
 
 It adds a link:
 
@@ -12,12 +12,6 @@ It adds a link:
 
 ###### Languages supported (English and Italian).
 Please help me to translate it in other languages!
-
-# How to Install
-
-1. Select File > Extension Manager...
-2. Search for this extension.
-3. Click on the Install button.
 
 # License
 

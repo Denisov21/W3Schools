@@ -46,5 +46,4 @@ v 0.2.6
 
 v 0.2.7
 
-* Change requisite in ReadMe and package.json
-* Add description in Italian language in Extension Manager
+* Add Brackets Wiki

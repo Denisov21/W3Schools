@@ -29,5 +29,6 @@ define({
     "DEVELOPER_LIST"   : "Develop List on Google Groups",
     "BRACKETS_THEMES"  : "Brackets Themes (WEB Site)",
     "FEATURE_BACKLOG"  : "Feature Backlog on Trello",
-    "WAFFLE"           : "Brackets Waffle"
+    "WAFFLE"           : "Brackets Waffle",
+    "WIKI"             : "Wiki Brackets"
 });
