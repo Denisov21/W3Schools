@@ -13,6 +13,14 @@ It adds a link:
 ###### Languages supported (English and Italian).
 Please help me to translate it in other languages!
 
+# Extension installation
+
+### Installing into Brackets
+
+1. Choose **File > Extension Manager...**
+2. Search for "Tutorials"
+3. Click the `Install` button
+
 # License
 
 * Theme under MIT license [`LICENSE`](LICENSE)
