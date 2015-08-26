@@ -49,7 +49,7 @@ define(function (require, exports, module) {
     CommandManager.register(Strings.BRACKETS_THEMES, BRACKETS_THEMES, Themes);
     CommandManager.register(Strings.FEATURE_BACKLOG, TRELLO, Trello);
     CommandManager.register(Strings.WAFFLE, WAFFLE, Waffle);
-    CommandManager.register(Strings.WIKI, WIKI, Wiki)
+    CommandManager.register(Strings.WIKI, WIKI, Wiki);
 
     var helpMenu = Menus.getMenu(Menus.AppMenuBar.HELP_MENU);
     helpMenu.addMenuDivider();
@@ -64,6 +64,6 @@ define(function (require, exports, module) {
 
     var viewMenu = Menus.getMenu(Menus.AppMenuBar.VIEW_MENU);
     viewMenu.addMenuDivider();
-    viewMenu.addMenuItem(BRACKETS_THEMES, "Ctrl-Alt-H");
+    viewMenu.addMenuItem(BRACKETS_THEMES);
 
- });
+});
